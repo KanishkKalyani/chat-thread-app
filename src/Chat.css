@@ -1,0 +1,25 @@
+.chat-wrapper {
+  cursor: pointer;
+}
+
+.chat-heading {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  margin-right: 8px;
+}
+
+.chat-message-box {
+  padding: 8px;
+  border-left: grey 2px solid;
+  margin-left: 24px;
+}
+
+.chat-message-box:hover {
+  border-left: blue 2px solid;
+}
